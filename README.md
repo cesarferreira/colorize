@@ -1,11 +1,31 @@
 # Colorize
-Android quick access to 1000+ preloaded colors!
-
-And build COLORFUL apps!!
+Android quick access to **1000+** pre-loaded **@colors**!
 
 <p align="center">
-<img src="https://raw.github.com/cesarferreira/colorize/master/extras/images/img_01.jpg?raw=true" />
+<img src="https://raw.github.com/cesarferreira/colorize/master/extras/images/img_02.png?raw=true" width="100%" />
 </p>
+
+
+## Usage
+
+**Step 1:** Add the JitPack repository to your build file
+
+
+```groovy
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+}
+```
+
+
+**Step 2:** Add the dependency in the form
+```groovy
+dependencies {
+    compile 'com.github.cesarferreira:colorize:0.1.0'
+}
+```
 
 
 
