@@ -7,30 +7,62 @@
     tools:context=".MainActivity">
 
     <View
-        android:background="@color/grape"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="20" />
+        android:layout_weight="10"
+        android:background="@color/c_deep_tuscan_red" />
 
     <View
-        android:background="@color/blue_gray"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="20" />
-    <View
-        android:background="@color/red_crayola"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="20" />
-    <View
-        android:background="@color/blond"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="20" />
-    <View
-        android:background="@color/g_ogreen"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="20" />
+        android:layout_weight="10"
+        android:background="@color/c_blue_gray" />
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/c_red_crayola" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/c_blond" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/c_aero" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/c_grape" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/c_cadet_grey" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/c_bdazzled_blue" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/c_burntsienna" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/c_languidlavender" />
 </LinearLayout>
