@@ -6,7 +6,7 @@ Android quick access to **1000+** pre-loaded **@colors**!
 </p>
 
 
-## Usage
+## Install
 
 **Step 1:** Add the JitPack repository to your build file
 
@@ -27,6 +27,10 @@ dependencies {
 }
 ```
 
+## Usage
+<p align="center">
+<img src="https://raw.github.com/cesarferreira/colorize/master/extras/images/terminal.gif?raw=true" width="100%" />
+</p>
 
 
 ## Contributing
