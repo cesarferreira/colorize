@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+//apply plugin: 'android-maven'
 
 android {
     compileSdkVersion 22
@@ -7,8 +8,8 @@ android {
     defaultConfig {
         minSdkVersion 10
         targetSdkVersion 22
-        versionCode 1
-        versionName "0.2.0"
+        versionCode 3
+        versionName "0.2.1"
     }
     buildTypes {
         release {
@@ -22,3 +23,14 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.2.0'
 }
+
+// build a jar with source files
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'sources'
+}
+artifacts {
+    archives sourcesJar
+}
+
+
