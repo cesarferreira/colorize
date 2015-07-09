@@ -8,22 +8,12 @@ Android quick access to **1000+** pre-loaded **@colors**!
 
 ## Install
 
-**Step 1:** Add the JitPack repository to your build file
 
 
-```groovy
-repositories {
-    maven {
-        url "https://jitpack.io"
-    }
-}
-```
-
-
-**Step 2:** Add the dependency in the form
+Add the dependency to your `build.gradle`
 ```groovy
 dependencies {
-    compile 'com.github.cesarferreira:colorize:0.2.1'
+    compile 'com.cesarferreira.colorize:library:0.2.1'
 }
 ```
 
