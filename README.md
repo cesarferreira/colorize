@@ -13,7 +13,7 @@ Android quick access to **1000+** pre-loaded **@colors**!
 Add the dependency to your `build.gradle`
 ```groovy
 dependencies {
-    compile 'com.cesarferreira.colorize:library:0.2.1'
+    compile 'com.cesarferreira.colorize:library:0.2.2'
 }
 ```
 

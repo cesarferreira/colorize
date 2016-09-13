@@ -1,2 +1,2 @@
-include ':colorize'
+include ':library'
 include ':sample'
